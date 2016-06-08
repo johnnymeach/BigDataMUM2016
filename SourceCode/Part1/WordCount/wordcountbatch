@@ -1,0 +1,11 @@
+#!/bin/bash
+clear
+echo "Running WordCount Approach" 
+hadoop fs -rm -r wordcount/input
+hadoop fs -rm -r wordcount/output
+hadoop fs -mkdir -p wordcount
+hadoop fs -put input wordcount
+cd target
+hadoop jar WordCount-1.0.jar edu.mum.cs522.WordCount wordcount/input wordcount/output
+echo "wordcount Approach - Output"
+hadoop fs -cat wordcount/output/*

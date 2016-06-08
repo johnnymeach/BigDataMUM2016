@@ -1,3 +1,1 @@
-# BigDataMUM2016
-# BigDataMUM2016
-# BigDataMUM2016
+Big Data 2016 at MUM
