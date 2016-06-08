@@ -1,0 +1,11 @@
+#!/bin/bash
+clear
+echo "Running Stripe Approach" 
+hadoop fs -rm -r relativefrequency/input
+hadoop fs -rm -r relativefrequency/output/stripe
+hadoop fs -mkdir -p relativefrequency
+hadoop fs -put input relativefrequency
+cd target
+hadoop jar StripeApproach-1.0.jar mum.cs.edu.RelativeFrequency relativefrequency/input relativefrequency/output/stripe
+echo "Stripe Approach - Output"
+hadoop fs -cat relativefrequency/output/stripe/*

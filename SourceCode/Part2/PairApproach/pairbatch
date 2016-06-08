@@ -1,11 +1,11 @@
 #!/bin/bash
 clear
 echo "Running Pair Approach" 
-hadoop fs -rm -r relativefrequency/input
-hadoop fs -rm -r relativefrequency/output/pair
-hadoop fs -mkdir -p relativefrequency
-hadoop fs -put input relativefrequency
+hadoop fs -rm -r pair/input
+hadoop fs -rm -r pair/output
+hadoop fs -mkdir -p pair
+hadoop fs -put input pair
 cd target
-hadoop jar PairApproach-1.0.jar mum.cs.edu.RelativeFrequency relativefrequency/input relativefrequency/output/pair
+hadoop jar PairApproach-1.0.jar mum.cs.edu.RelativeFrequency pair/input pair/output
 echo "Pair Approach - Output"
-hadoop fs -cat relativefrequency/output/pair/*
+hadoop fs -cat pair/output/*
