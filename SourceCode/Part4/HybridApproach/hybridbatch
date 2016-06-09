@@ -1,0 +1,11 @@
+#!/bin/bash
+clear
+echo "Running Hybrid Approach" 
+hadoop fs -rm -r relativefrequency/input
+hadoop fs -rm -r relativefrequency/output/hybrid
+hadoop fs -mkdir -p relativefrequency
+hadoop fs -put input relativefrequency
+cd target
+hadoop jar HybridApproach-1.0.jar mum.cs.edu.RelativeFrequency relativefrequency/input relativefrequency/output/hybrid
+echo "Hybrid Approach - Output"
+hadoop fs -cat relativefrequency/output/hybrid/*
