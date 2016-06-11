@@ -1,0 +1,5 @@
+Total Access Log Records: 1543 
+Each method request to the server.
+	->Method : GET request 1524 time(s)
+	->Method : HEAD request 5 time(s)
+	->Method : POST request 14 time(s)

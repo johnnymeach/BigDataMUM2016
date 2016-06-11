@@ -1,0 +1,6 @@
+#!/bin/bash
+clear
+echo "Running Apache Log Analyzing"
+rm -r output
+spark-submit --class cs.mum.edu.ApacheLogAnalyzing --master local build/libs/spark-project.jar input/apache_log output/
+echo "Processes Completed!"

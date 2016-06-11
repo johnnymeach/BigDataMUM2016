@@ -1,0 +1,41 @@
+products:
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> build/classes/main/cs/mum/edu/ApacheLogAnalyzing$$anonfun$1.class
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> build/classes/main/cs/mum/edu/ApacheLogAnalyzing$$anonfun$2.class
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> build/classes/main/cs/mum/edu/ApacheLogAnalyzing$$anonfun$3.class
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> build/classes/main/cs/mum/edu/ApacheLogAnalyzing$$anonfun$4.class
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> build/classes/main/cs/mum/edu/ApacheLogAnalyzing$$anonfun$main$1.class
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> build/classes/main/cs/mum/edu/ApacheLogAnalyzing$.class
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> build/classes/main/cs/mum/edu/ApacheLogAnalyzing.class
+   src/main/scala/cs/mum/edu/util/ApacheAccessLog.scala -> build/classes/main/cs/mum/edu/util/ApacheAccessLog$.class
+   src/main/scala/cs/mum/edu/util/ApacheAccessLog.scala -> build/classes/main/cs/mum/edu/util/ApacheAccessLog.class
+   src/main/scala/cs/mum/edu/util/OrderingUtils.scala -> build/classes/main/cs/mum/edu/util/OrderingUtils$.class
+   src/main/scala/cs/mum/edu/util/OrderingUtils.scala -> build/classes/main/cs/mum/edu/util/OrderingUtils$SecondValueLongOrdering$.class
+   src/main/scala/cs/mum/edu/util/OrderingUtils.scala -> build/classes/main/cs/mum/edu/util/OrderingUtils$SecondValueOrdering$.class
+   src/main/scala/cs/mum/edu/util/OrderingUtils.scala -> build/classes/main/cs/mum/edu/util/OrderingUtils$SecondValuePairOrdering$.class
+   src/main/scala/cs/mum/edu/util/OrderingUtils.scala -> build/classes/main/cs/mum/edu/util/OrderingUtils.class
+binary dependencies:
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> /home/sokly/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/1.6.1/6b1cf76ffbb6e13ae44f62d92b5efab62cf2d828/spark-core_2.11-1.6.1.jar
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> /home/sokly/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> /usr/local/jdk1.8.0_91/jre/lib/rt.jar
+   src/main/scala/cs/mum/edu/util/ApacheAccessLog.scala -> /home/sokly/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
+   src/main/scala/cs/mum/edu/util/ApacheAccessLog.scala -> /usr/local/jdk1.8.0_91/jre/lib/rt.jar
+   src/main/scala/cs/mum/edu/util/OrderingUtils.scala -> /home/sokly/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar
+   src/main/scala/cs/mum/edu/util/OrderingUtils.scala -> /usr/local/jdk1.8.0_91/jre/lib/rt.jar
+source dependencies:
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> src/main/scala/cs/mum/edu/util/ApacheAccessLog.scala
+external dependencies:
+class names:
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> cs.mum.edu.ApacheLogAnalyzing
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> cs.mum.edu.ApacheLogAnalyzing$
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> cs.mum.edu.ApacheLogAnalyzing$$anonfun$1
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> cs.mum.edu.ApacheLogAnalyzing$$anonfun$2
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> cs.mum.edu.ApacheLogAnalyzing$$anonfun$3
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> cs.mum.edu.ApacheLogAnalyzing$$anonfun$4
+   src/main/scala/cs/mum/edu/ApacheLogAnalyzing.scala -> cs.mum.edu.ApacheLogAnalyzing$$anonfun$main$1
+   src/main/scala/cs/mum/edu/util/ApacheAccessLog.scala -> cs.mum.edu.util.ApacheAccessLog
+   src/main/scala/cs/mum/edu/util/ApacheAccessLog.scala -> cs.mum.edu.util.ApacheAccessLog$
+   src/main/scala/cs/mum/edu/util/OrderingUtils.scala -> cs.mum.edu.util.OrderingUtils
+   src/main/scala/cs/mum/edu/util/OrderingUtils.scala -> cs.mum.edu.util.OrderingUtils$
+   src/main/scala/cs/mum/edu/util/OrderingUtils.scala -> cs.mum.edu.util.OrderingUtils$SecondValueLongOrdering$
+   src/main/scala/cs/mum/edu/util/OrderingUtils.scala -> cs.mum.edu.util.OrderingUtils$SecondValueOrdering$
+   src/main/scala/cs/mum/edu/util/OrderingUtils.scala -> cs.mum.edu.util.OrderingUtils$SecondValuePairOrdering$
